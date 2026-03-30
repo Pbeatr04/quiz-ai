@@ -1,0 +1,3 @@
+quiz-mobile/node_modules/
+uploads/
+.env
