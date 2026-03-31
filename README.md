@@ -41,5 +41,5 @@ O Quiz AI é uma aplicação que permite a criação e execução de perguntas e
 ### Backend
 
 1. Acesse a pasta:
-</>bash
+```bash
 cd app-flask-pdf
