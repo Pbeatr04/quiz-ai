@@ -42,6 +42,10 @@ def similarity_percent(a: str, b: str) -> float:
     return round(SequenceMatcher(None, a.lower(), b.lower()).ratio() * 100, 2)
 
 # ---------- Endpoints ----------
+@app.route("/")
+def home():
+    return "Quiz AI Backend funcionando " 
+
 @app.route("/api/health", methods=["GET"])
 def health():
     return jsonify({"ok": True})
